@@ -1,6 +1,7 @@
 class TeaParty
-  def initialize(type, flavor)
-    @type = type
+  def initialize(type, flavor, source)
     @flavor = flavor
+    @type = type
+    @source = source
   end
 end
